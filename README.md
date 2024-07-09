@@ -19,9 +19,9 @@ Warp-On-Warp configurations based on a wide range of Cloudflare clean IPs and ze
       2. You have to have `warp.exe`, `..\subnets_v4.txt` and `..\subnets_v6.txt` locally available with the same layout as this repository.
       3. Wait for the execution to create `result.csv`.
       4. Copy and Paste below commands where `result.csv` is located:
-      ```bash
-      curl -sSL https://raw.githubusercontent.com/mr-pylin/warp-on-warp/main/warp.sh -o warp.sh && chmod +x warp.sh && bash warp.sh
-      ```
+         ```bash
+         curl -sSL https://raw.githubusercontent.com/mr-pylin/warp-on-warp/main/warp.sh -o warp.sh && chmod +x warp.sh && bash warp.sh
+         ```
 
 ## 📝 TODO
    - [ ] Adding support for IPv6.
